@@ -2,7 +2,7 @@
 
 ### Problema01
 
-Se necesita una solución que permita generar operaciones aritméticas, tales como: suma, resta, multiplicación, división. Independientemente de la operación que se vaya a realizar, se solicita trabajar con dos número ingresados por teclado. Existe una restricción, se puede ejecutar cualquiera de las operaciones, siempre que el primer número ingresado, sea mayor al segundo ingresado.
+Se necesita una solución que permita generar operaciones aritméticas, tales como: suma, resta, multiplicación, división, módulo, potencia. Independientemente de la operación que se vaya a realizar, se solicita trabajar con dos número ingresados por teclado. Existe una restricción, se puede ejecutar cualquiera de las operaciones, siempre que el primer número ingresado, sea mayor al segundo ingresado.
 
 Ejemplo: Si el usuario decide hacer una resta, la misma se la puede hacer con valores como: num1 = 10 y num2 = 8.
 
@@ -32,17 +32,18 @@ El 0.05% del valor del vehículo más $2.2
 
 El reporte que se debe generar es:
 
+```
 Peaje "Buena vía"
-Propietario: René Elizalde
+	Propietario: René Elizalde
 Tipo: vehículo liviano particular
-Valor: $25000
-Peaje: $4.5
-
+	Valor: $25000
+	Peaje: $4.5
+```
 
 ### Problema03
 
 Elaborar un programa en Java que permita leer los datos de un empleado (nombre, tipo
-de empleado y sueldo); luego que imprima el incremento de sueldo y su nuevo sueldo de
+de empleado y sueldo); luego que imprima el nombre, sueldo inicial, incremento de sueldo y su nuevo sueldo de
 acuerdo a lo siguiente:
 * Si es tipo de empleado 1 se le aumentará el 5%,
 * Si es tipo 2 se le aumentará el 7%,
